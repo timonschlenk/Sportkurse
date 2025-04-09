@@ -1,8 +1,5 @@
 # Sportkurse Bot
 
-## Plan
-Einen Bot mit Pyhton und der Bibliothek Selenium schreiben, der einen mithilfe einer Exceldatei automatisch in Sportkurse der TU Dresden einschreibt
-
 ## Installation
 Befolge folgende Schritte:
 
@@ -43,3 +40,6 @@ pip install selenium
 ]
 ```
 6. Habe Spaß an den Sportkursen xD
+
+## Ausführung
+Einfach Skript ausführen, dann laden die Seiten der Sportkurse automatisch und refreshen solange bis der Anmeldebutton erscheint, anschließend werden die Informationen automatisiert eingegeben und man muss nur noch auf Buchung bestätigen klicken
