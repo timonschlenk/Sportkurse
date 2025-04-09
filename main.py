@@ -16,6 +16,11 @@ def inscribe(data):
     service = Service(executable_path='./chromedriver.exe')
     driver = webdriver.Chrome(service=service)
 
+    # Alternative: Setup Firefox options and service
+    #service = Service(executable_path='./geckodriver.exe')
+    #driver = webdriver.Firefox(service=service)
+
+
     try:
         # Assign variables from JSON
         LINK = data["LINK"]
