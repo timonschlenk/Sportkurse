@@ -8,9 +8,9 @@ Befolge folgende Schritte:
 ```terminal
 pip install selenium
 ```
-3. Installiere eine aktuelle Version von Google Chrome oder Firefox und den dazugehörigen Driver ([Chrome](https://sites.google.com/chromium.org/driver/), [Firefox](https://github.com/mozilla/geckodriver))
+3. Installiere eine aktuelle Version von Google Chrome oder Firefox und den dazugehörigen Driver ([Chrome](https://sites.google.com/chromium.org/driver/), [Firefox](https://github.com/mozilla/geckodriver). Installiere hierfür am besten die neuste Version von Firefox oder Chrome und dann den neusten Driver, der zu deinem System passt.
 4. Kopiere die Executable des Drivers in den root Ordner des Projekts und benenne sie ``` chromedriver.exe ``` bzw. ``` geckodriver.exe ```
-5. Füge eine ``` data.json ``` Datei in den Root Ordner hinzu in welcher sich private Informationen für die Anmeldung befinden. Es folgt ein Beispiel
+5. Füge eine ``` data.json ``` Datei in den Root Ordner hinzu in welcher sich private Informationen für die Anmeldung befinden. Es folgt ein Beispiel (Übernehme das Dokument genau so und ändere nur die einträge, so, dass es für die passt. Achtung: Umlaute und ß dürfen nicht verwendet werden)
 ```json
 [
     {
@@ -18,7 +18,7 @@ pip install selenium
         "KURSNUMMER": "AB1504128",
         "VORNAME": "Max", 
         "NAME": "Mustermann", 
-        "STRASSE": "Musterstraße 1", 
+        "STRASSE": "Musterstrasse 1", 
         "ORT": "01234 Bielefeld", 
         "GEBURTSDATUM": "01.01.2000", 
         "STATUS": "Stud. TU Dresden", 
@@ -30,7 +30,7 @@ pip install selenium
         "KURSNUMMER": "AB1504128",
         "VORNAME": "Marla", 
         "NAME": "Mustermann", 
-        "STRASSE": "Musterstraße 1", 
+        "STRASSE": "Musterstrasse 1", 
         "ORT": "01234 Bielefeld", 
         "GEBURTSDATUM": "01.01.2000", 
         "STATUS": "Stud. TU Dresden", 
